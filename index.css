@@ -1,0 +1,35 @@
+.style {
+    color: rgb(14, 13, 13);
+    background-color: yellow;
+    padding: 1rem;
+}
+
+.style {
+     background-color: #fff;
+     padding: 1rem;
+     border-radius: 0.5cm;
+     border-color: black;
+     
+}
+.style:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+#ethAmount{
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    padding: 10px 40px 10px;
+    border-radius: 10px;
+}
+label{
+    display: flex;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+::placeholder {
+    text-align: center;
+}
